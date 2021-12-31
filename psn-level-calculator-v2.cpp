@@ -4,9 +4,9 @@
 
 static inline void display_profile(psn::profile& p) {
     double percentage;
-    unsigned int level = p.get_level(percentage);
-    printf("PSN level %u (%.2f%%), points: %u\n", level, percentage, p.get_points());
-    printf("PSN level %u starts at %u points\n", level, psn::level_to_points(level));
+    unsigned int level = p.get_level_v2(percentage);
+    printf("PSN level %u (%.2f%%), points: %u\n", level, percentage, p.get_points_v2());
+    printf("PSN level %u starts at %u points\n", level, psn::level_to_points_v2(level));
 }
 
 int main(int argc, char* argv[]) {

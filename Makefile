@@ -7,7 +7,7 @@ LDFLAGS:=-lm
 HEADERS:=$(wildcard *.h *.hpp)
 SOURCES:=$(wildcard *.$(EXT))
 OBJECTS:=$(SOURCES:.$(EXT)=.o)
-EXECUTABLES:=psn-level-calculator
+EXECUTABLES:=psn-level-calculator-v1 psn-level-calculator-v2 psn-points-to-level-v1 psn-points-to-level-v2 psn-level-to-points-v1 psn-level-to-points-v2
 
 .PHONY: all debug obj clean cleanObj cleanExe rebuild
 
