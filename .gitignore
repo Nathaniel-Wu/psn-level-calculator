@@ -1,3 +1,10 @@
 .DS_Store
 *.o
-psn-level-calculator
+*.x86
+*.arm
+psn-level-calculator-v1
+psn-level-calculator-v2
+psn-points-to-level-v1
+psn-points-to-level-v2
+psn-level-to-points-v1
+psn-level-to-points-v2
